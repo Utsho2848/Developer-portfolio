@@ -13,7 +13,7 @@ p {
     font-size: 12px;
 }
 
-section {
+.flexible-container {
     display: flex;
     margin-bottom: 100px;
 }
@@ -28,7 +28,7 @@ section {
     padding-left: 10%;
 }
 
-.title-heading {
+.coral-color {
     color: coral;
 }
 
@@ -55,4 +55,26 @@ section {
 
 .dream-half {
     padding-right: 10%;
+}
+
+.experience-container {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-size: 7%;
+    background-position-y: 75px;
+    background-position-x: -20px;
+}
+
+.expo-dev {
+    margin: 0 30px;
+    box-shadow: 10px 10px 30px gray;
+    padding-left: 2%;
+}
+
+.full-dev {
+    border-left: 5px solid coral;
+}
+
+.baby-dev {
+    border-left: 5px solid #00d9ff;
 }
